@@ -1,9 +1,8 @@
 
 exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
       return knex('posts').insert([
         {
-          username: "Kylo Ren", 
+          username: "Kylo-Ren", 
           description: 'I am the force. Also, this BE stuff isn too bad'
         },
       
